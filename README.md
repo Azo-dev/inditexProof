@@ -32,7 +32,7 @@ This repository contains a Spring Boot application for managing price-related op
 Once the application is running, you can query prices using the provided endpoints.
 Example request:
 ```sh
-curl -X GET "http://localhost:8080/api/prices?brandId=1&productId=35455&date=2024-02-14T00:00:00"
+curl -X GET "http://localhost:8080/prices?applicationDate=2020-06-15T11:30:00&productId=35455&brandId=1"
 ```
 
 ### Source Code Review
